@@ -1,0 +1,4145 @@
+[
+    {
+        "id": 5012,
+        "name": "Diadema",
+        "locality": "Diadema",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 12743,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 12744,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5220,
+        "name": "Jacareí",
+        "locality": "Jacareí",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13519,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13518,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13517,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5222,
+        "name": "Santa Gertrudes",
+        "locality": "Santa Gertrudes",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 391209,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13524,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391211,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5231,
+        "name": "Taubaté",
+        "locality": "Taubaté",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13542,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13798,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13799,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13800,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13614,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 13801,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5233,
+        "name": "Cid.Universitária-USP-Ipen",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13546,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13547,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13548,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5239,
+        "name": "Osasco",
+        "locality": "Osasco",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13725,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13726,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13727,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13560,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 13623,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5243,
+        "name": "Pinheiros",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13735,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13736,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13737,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13570,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13738,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5244,
+        "name": "Paulínia-Sul",
+        "locality": null,
+        "provider": {
+            "id": 219,
+            "name": "Sao Paulo"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13573,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13574,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13575,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13572,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5252,
+        "name": "Congonhas",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13607,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13609,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13653,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13654,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 13608,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5254,
+        "name": "Tatuí",
+        "locality": "Tatuí",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13796,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13612,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13797,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5255,
+        "name": "Grajaú-Parelheiros",
+        "locality": "Grajaú-Parelheiros",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13669,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13666,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13667,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13668,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13613,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5256,
+        "name": "Piracicaba",
+        "locality": "Piracicaba",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5079348,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 5079347,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 5079346,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5257,
+        "name": "Campinas-V.União",
+        "locality": "Campinas",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13633,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13638,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13616,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13639,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5258,
+        "name": "Itaquera",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13617,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5259,
+        "name": "Araraquara",
+        "locality": "Araraquara",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13618,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13620,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13619,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5260,
+        "name": "Jundiaí",
+        "locality": null,
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13696,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13697,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13621,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391206,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5261,
+        "name": "Catanduva",
+        "locality": "Catanduva",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13647,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13648,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13622,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5262,
+        "name": "Taboão da Serra",
+        "locality": null,
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13624,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13794,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13795,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5263,
+        "name": "Americana",
+        "locality": "Americana",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13625,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13626,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5264,
+        "name": "Araçatuba",
+        "locality": "Araçatuba",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13627,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13628,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5265,
+        "name": "Campinas-Taquaral",
+        "locality": "Campinas",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13636,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13637,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13629,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5266,
+        "name": "Bauru",
+        "locality": "Bauru",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5079350,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 5079349,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5267,
+        "name": "Campinas-Centro",
+        "locality": "Campinas",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13634,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13635,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5268,
+        "name": "Capão Redondo",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5079351,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5269,
+        "name": "Carapicuíba",
+        "locality": "Carapicuíba",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13643,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13644,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13645,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13646,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5270,
+        "name": "Cerqueira César",
+        "locality": "Cerqueira César",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13649,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13650,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13651,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13652,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5271,
+        "name": "Cubatão-Centro",
+        "locality": null,
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13655,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13656,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13657,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13658,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5272,
+        "name": "Cubatão-V.Parisi",
+        "locality": "Cubatão",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13659,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13660,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13661,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5273,
+        "name": "Cubatão-Vale do Mogi",
+        "locality": null,
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13662,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13663,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13664,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13665,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5274,
+        "name": "Guaratinguetá",
+        "locality": "Guaratinguetá",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13670,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13671,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13672,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391208,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5275,
+        "name": "Guarulhos-Paço Municipal",
+        "locality": "Guarulhos",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13673,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13674,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13675,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13676,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5276,
+        "name": "Guarulhos-Pimentas",
+        "locality": "Guarulhos",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5079356,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 5079354,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 5079353,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 5079352,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 5079355,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5277,
+        "name": "Ibirapuera",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13682,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13683,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13684,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13685,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5278,
+        "name": "Interlagos",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13686,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13687,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13688,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13689,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5279,
+        "name": "Itaim Paulista",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 852474,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13690,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13691,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13692,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5280,
+        "name": "Jaú",
+        "locality": "Jaú",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5079358,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 5079357,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5281,
+        "name": "Limeira",
+        "locality": "Limeira",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13698,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13699,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13700,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391210,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5282,
+        "name": "Parque D.Pedro II",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13730,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13731,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13728,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13729,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13701,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5283,
+        "name": "Paulínia",
+        "locality": "Paulínia",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13702,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13703,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13715,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13716,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5284,
+        "name": "Marg.Tietê-Pte Remédios",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5079362,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 5079360,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 5079359,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 5079361,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5285,
+        "name": "Marília",
+        "locality": "Marília",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13709,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13710,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13711,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5286,
+        "name": "Mauá",
+        "locality": "Mauá",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13712,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13713,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13714,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391207,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5287,
+        "name": "Mogi das Cruzes",
+        "locality": null,
+        "provider": {
+            "id": 219,
+            "name": "Sao Paulo"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13717,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13718,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13719,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5288,
+        "name": "Mooca",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13720,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13721,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13722,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391213,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5289,
+        "name": "N.Senhora do Ó",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13723,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13724,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5290,
+        "name": "Pico do Jaraguá",
+        "locality": "Pico do Jaraguá",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13732,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13733,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13734,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5291,
+        "name": "Presidente Prudente",
+        "locality": "Presidente Prudente",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13742,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13743,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13744,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5292,
+        "name": "Ribeirão Preto-Centro",
+        "locality": null,
+        "provider": {
+            "id": 219,
+            "name": "Sao Paulo"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13745,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13746,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13747,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13748,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13749,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5293,
+        "name": "S.André-Capuava",
+        "locality": "Santo André",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 391214,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13750,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13751,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13752,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5294,
+        "name": "S.André-Paço Municipal",
+        "locality": null,
+        "provider": {
+            "id": 219,
+            "name": "Sao Paulo"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13753,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13754,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5295,
+        "name": "S.Bernardo-Centro",
+        "locality": "São Bernardo do Campo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13755,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13756,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13757,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13758,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5296,
+        "name": "S.Bernardo-Paulicéia",
+        "locality": null,
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13759,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5297,
+        "name": "S.José Campos",
+        "locality": null,
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13760,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13761,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13762,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13763,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5298,
+        "name": "S.José Campos-Jd.Satelite",
+        "locality": "São José dos Campos",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13764,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13765,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13766,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13767,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13768,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5299,
+        "name": "Santana",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13774,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13769,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5300,
+        "name": "Santos-Ponta da Praia",
+        "locality": "Santos",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13781,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13770,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13771,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13772,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 13773,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5301,
+        "name": "Santo Amaro",
+        "locality": "São Paulo",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13775,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13776,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13777,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5302,
+        "name": "Santos",
+        "locality": "Santos",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5079363,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5303,
+        "name": "Sorocaba",
+        "locality": "Sorocaba",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13782,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13783,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13784,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5304,
+        "name": "São Caetano do Sul",
+        "locality": "São Caetano do Sul",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13785,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 13786,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13787,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13788,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391216,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 13789,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5305,
+        "name": "São José do Rio Preto",
+        "locality": "São José do Rio Preto",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 13790,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 13791,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 13792,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 13793,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 61945,
+        "name": "Ribeirão Preto",
+        "locality": "Ribeirão Preto",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 391205,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 391203,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 391334,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 391201,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 391204,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 233408,
+        "name": "Perus",
+        "locality": null,
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 1342913,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 1342911,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 1342929,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 233409,
+        "name": "Rio Claro-Jd.Guanabara",
+        "locality": "Rio Claro-Jd.Guanabara",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 1342914,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 1342912,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 1342930,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 233410,
+        "name": "Paulínia-Sta Terezinha",
+        "locality": "Paulínia-Sta Terezinha",
+        "provider": {
+            "id": 220,
+            "name": "Sao Paulo CETESB"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 1344046,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 1342915,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 1555366,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 1342931,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 1342916,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 269134,
+        "name": "211004_teste_modo_fixo",
+        "locality": null,
+        "provider": {
+            "id": 200,
+            "name": "HabitatMap"
+        },
+        "instruments": [
+            {
+                "id": 5,
+                "name": "HabitatMap Sensor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 1554344,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 589967,
+        "name": "Sao Paulo",
+        "locality": "N/A",
+        "provider": {
+            "id": 119,
+            "name": "AirNow"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 3271948,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 820321,
+        "name": "Bangu",
+        "locality": "Rio de Janeiro",
+        "provider": {
+            "id": 62,
+            "name": "Rio City Hall"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5837056,
+                "name": "no µg/m³",
+                "parameter": {
+                    "id": 19843,
+                    "name": "no",
+                    "units": "µg/m³",
+                    "displayName": "NO mass"
+                }
+            },
+            {
+                "id": 5837055,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 5837057,
+                "name": "nox µg/m³",
+                "parameter": {
+                    "id": 27,
+                    "name": "nox",
+                    "units": "µg/m³",
+                    "displayName": "NOx mass"
+                }
+            },
+            {
+                "id": 4475468,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 4475453,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 5834112,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 820322,
+        "name": "Campo Grande",
+        "locality": "Rio de Janeiro",
+        "provider": {
+            "id": 62,
+            "name": "Rio City Hall"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 5707962,
+                "name": "no µg/m³",
+                "parameter": {
+                    "id": 19843,
+                    "name": "no",
+                    "units": "µg/m³",
+                    "displayName": "NO mass"
+                }
+            },
+            {
+                "id": 5707964,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 5707963,
+                "name": "nox µg/m³",
+                "parameter": {
+                    "id": 27,
+                    "name": "nox",
+                    "units": "µg/m³",
+                    "displayName": "NOx mass"
+                }
+            },
+            {
+                "id": 4475450,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 4475461,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 4475467,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 820323,
+        "name": "Centro",
+        "locality": "Rio de Janeiro",
+        "provider": {
+            "id": 62,
+            "name": "Rio City Hall"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 4475452,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 4475460,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 6344694,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 820324,
+        "name": "Copacabana",
+        "locality": "Rio de Janeiro",
+        "provider": {
+            "id": 62,
+            "name": "Rio City Hall"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 4475465,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 4475471,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 820326,
+        "name": "Irajá",
+        "locality": "Rio de Janeiro",
+        "provider": {
+            "id": 62,
+            "name": "Rio City Hall"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 4475449,
+                "name": "co ppm",
+                "parameter": {
+                    "id": 8,
+                    "name": "co",
+                    "units": "ppm",
+                    "displayName": "CO"
+                }
+            },
+            {
+                "id": 4475462,
+                "name": "no µg/m³",
+                "parameter": {
+                    "id": 19843,
+                    "name": "no",
+                    "units": "µg/m³",
+                    "displayName": "NO mass"
+                }
+            },
+            {
+                "id": 4475455,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 4475466,
+                "name": "nox µg/m³",
+                "parameter": {
+                    "id": 27,
+                    "name": "nox",
+                    "units": "µg/m³",
+                    "displayName": "NOx mass"
+                }
+            },
+            {
+                "id": 6459542,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 4475454,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 6819305,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 11268993,
+                "name": "so2 µg/m³",
+                "parameter": {
+                    "id": 6,
+                    "name": "so2",
+                    "units": "µg/m³",
+                    "displayName": "SO₂ mass"
+                }
+            }
+        ]
+    },
+    {
+        "id": 820328,
+        "name": "São Cristóvão",
+        "locality": "Rio de Janeiro",
+        "provider": {
+            "id": 62,
+            "name": "Rio City Hall"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 4475463,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 4475456,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 820329,
+        "name": "Tijuca",
+        "locality": "Rio de Janeiro",
+        "provider": {
+            "id": 62,
+            "name": "Rio City Hall"
+        },
+        "instruments": [
+            {
+                "id": 2,
+                "name": "Government Monitor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 4475446,
+                "name": "no µg/m³",
+                "parameter": {
+                    "id": 19843,
+                    "name": "no",
+                    "units": "µg/m³",
+                    "displayName": "NO mass"
+                }
+            },
+            {
+                "id": 4475448,
+                "name": "no2 µg/m³",
+                "parameter": {
+                    "id": 5,
+                    "name": "no2",
+                    "units": "µg/m³",
+                    "displayName": "NO₂ mass"
+                }
+            },
+            {
+                "id": 4475458,
+                "name": "nox µg/m³",
+                "parameter": {
+                    "id": 27,
+                    "name": "nox",
+                    "units": "µg/m³",
+                    "displayName": "NOx mass"
+                }
+            },
+            {
+                "id": 4475447,
+                "name": "o3 µg/m³",
+                "parameter": {
+                    "id": 3,
+                    "name": "o3",
+                    "units": "µg/m³",
+                    "displayName": "O₃ mass"
+                }
+            },
+            {
+                "id": 4475445,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            }
+        ]
+    },
+    {
+        "id": 1814823,
+        "name": "Cidade Tiradentes 2.0",
+        "locality": null,
+        "provider": {
+            "id": 200,
+            "name": "HabitatMap"
+        },
+        "instruments": [
+            {
+                "id": 5,
+                "name": "HabitatMap Sensor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 7376210,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 1820388,
+        "name": "Cidade Tiradentes 2.0",
+        "locality": null,
+        "provider": {
+            "id": 200,
+            "name": "HabitatMap"
+        },
+        "instruments": [
+            {
+                "id": 5,
+                "name": "HabitatMap Sensor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 7382835,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            }
+        ]
+    },
+    {
+        "id": 3047759,
+        "name": "Caxias do Sul",
+        "locality": null,
+        "provider": {
+            "id": 66,
+            "name": "AirGradient"
+        },
+        "instruments": [
+            {
+                "id": 7,
+                "name": "AirGradient Sensor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 10497630,
+                "name": "pm1 µg/m³",
+                "parameter": {
+                    "id": 19,
+                    "name": "pm1",
+                    "units": "µg/m³",
+                    "displayName": "PM1"
+                }
+            },
+            {
+                "id": 10497629,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 10497637,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 10497633,
+                "name": "relativehumidity %",
+                "parameter": {
+                    "id": 98,
+                    "name": "relativehumidity",
+                    "units": "%",
+                    "displayName": "RH"
+                }
+            },
+            {
+                "id": 10497631,
+                "name": "temperature c",
+                "parameter": {
+                    "id": 100,
+                    "name": "temperature",
+                    "units": "c",
+                    "displayName": "Temperature (C)"
+                }
+            },
+            {
+                "id": 10497626,
+                "name": "um003 particles/cm³",
+                "parameter": {
+                    "id": 125,
+                    "name": "um003",
+                    "units": "particles/cm³",
+                    "displayName": "PM0.3 count"
+                }
+            }
+        ]
+    },
+    {
+        "id": 3107138,
+        "name": "teste1",
+        "locality": null,
+        "provider": {
+            "id": 66,
+            "name": "AirGradient"
+        },
+        "instruments": [
+            {
+                "id": 7,
+                "name": "AirGradient Sensor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 10896577,
+                "name": "pm1 µg/m³",
+                "parameter": {
+                    "id": 19,
+                    "name": "pm1",
+                    "units": "µg/m³",
+                    "displayName": "PM1"
+                }
+            },
+            {
+                "id": 10896581,
+                "name": "pm10 µg/m³",
+                "parameter": {
+                    "id": 1,
+                    "name": "pm10",
+                    "units": "µg/m³",
+                    "displayName": "PM10"
+                }
+            },
+            {
+                "id": 10896596,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 10896548,
+                "name": "relativehumidity %",
+                "parameter": {
+                    "id": 98,
+                    "name": "relativehumidity",
+                    "units": "%",
+                    "displayName": "RH"
+                }
+            },
+            {
+                "id": 10896572,
+                "name": "temperature c",
+                "parameter": {
+                    "id": 100,
+                    "name": "temperature",
+                    "units": "c",
+                    "displayName": "Temperature (C)"
+                }
+            },
+            {
+                "id": 10896555,
+                "name": "um003 particles/cm³",
+                "parameter": {
+                    "id": 125,
+                    "name": "um003",
+                    "units": "particles/cm³",
+                    "displayName": "PM0.3 count"
+                }
+            }
+        ]
+    },
+    {
+        "id": 3852932,
+        "name": "GUAMÁ",
+        "locality": null,
+        "provider": {
+            "id": 66,
+            "name": "AirGradient"
+        },
+        "instruments": [
+            {
+                "id": 7,
+                "name": "AirGradient Sensor"
+            }
+        ],
+        "sensors": [
+            {
+                "id": 12597358,
+                "name": "pm1 µg/m³",
+                "parameter": {
+                    "id": 19,
+                    "name": "pm1",
+                    "units": "µg/m³",
+                    "displayName": "PM1"
+                }
+            },
+            {
+                "id": 12597359,
+                "name": "pm25 µg/m³",
+                "parameter": {
+                    "id": 2,
+                    "name": "pm25",
+                    "units": "µg/m³",
+                    "displayName": "PM2.5"
+                }
+            },
+            {
+                "id": 12597360,
+                "name": "relativehumidity %",
+                "parameter": {
+                    "id": 98,
+                    "name": "relativehumidity",
+                    "units": "%",
+                    "displayName": "RH"
+                }
+            },
+            {
+                "id": 12597361,
+                "name": "temperature c",
+                "parameter": {
+                    "id": 100,
+                    "name": "temperature",
+                    "units": "c",
+                    "displayName": "Temperature (C)"
+                }
+            },
+            {
+                "id": 12597362,
+                "name": "um003 particles/cm³",
+                "parameter": {
+                    "id": 125,
+                    "name": "um003",
+                    "units": "particles/cm³",
+                    "displayName": "PM0.3 count"
+                }
+            }
+        ]
+    }
+]

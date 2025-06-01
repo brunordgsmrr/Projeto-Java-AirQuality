@@ -15,12 +15,17 @@ import com.fatec.api_java_airquality.services.CidadeService;
 public class CidadeController {
 	
 	@Autowired
-	CidadeService cityService;
+	CidadeService cidadeService;
 	
-	@GetMapping(value = "/allcities")
-	public List<CidadeDTO> getAllCities() {
-		
-		return cityService.getAllCities();
+	@GetMapping(value = "/todasCidades")
+	public List<CidadeDTO> getTodasCidades() {		
+		return cidadeService.getAllCities();
 	}
+	
+	@GetMapping(value = "/cidadeMonitoradas")
+	public List<CidadeDTO> getCidadesMonitoradas(){		
+		return cidadeService.getCidadesMonitoradas();
+	}
+
 
 }
