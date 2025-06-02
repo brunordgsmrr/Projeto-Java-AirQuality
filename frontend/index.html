@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Monitoramento da Qualidade do Ar</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
   <header id="navbar"></header>
   <div class="container">
@@ -13,6 +15,16 @@
     <main id="main-content"></main>
   </div>
 
+  <!-- Modal -->
+  <div id="city-add-modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-btn">X</span>
+      <h2>Adicionar nova cidade</h2>
+      <ul class="city-list"></ul>
+    </div>
+  </div>
+
   <script type="module" src="js/main.js"></script>
 </body>
+
 </html>

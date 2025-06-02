@@ -1,4 +1,4 @@
-export default class CityModel {
+export default class Cities {
   constructor() {
     this.cities = [];
   }
@@ -13,6 +13,10 @@ export default class CityModel {
 
   getCities() {
     return this.cities;
+  }
+
+  setCities(cities) {
+    this.cities = cities;
   }
 
   getCityById(cityId) {
