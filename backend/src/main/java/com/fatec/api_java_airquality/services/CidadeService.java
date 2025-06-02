@@ -1,5 +1,6 @@
 package com.fatec.api_java_airquality.services;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -17,8 +18,9 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fatec.api_java_airquality.dtos.CidadeDTO;
+import com.fatec.api_java_airquality.dtos.SensorDTO;
 import com.fatec.api_java_airquality.entities.Cidade;
-import com.fatec.api_java_airquality.entities.Provider;
+import com.fatec.api_java_airquality.entities.Sensor;
 import com.fatec.api_java_airquality.repositories.CidadeRepository;
 
 @Service
@@ -33,7 +35,7 @@ public class CidadeService {
 	@Value("${openaq.api.key}")
 	private String API_KEY;
 
-	public List<CidadeDTO> getAllCities() {
+	public List<CidadeDTO> consultarTodasCidades() {
 
 		RestTemplate restTemplate = new RestTemplate();
 	    ObjectMapper objectMapper = new ObjectMapper();
@@ -62,40 +64,37 @@ public class CidadeService {
 
 	}
 	
-	/*
-	public List<CidadeDTO> listarTodas() {
-		
-		List<Cidade> result = cidadeRepository.findAll();
-		
-		List<CidadeDTO> cidadesDTO;
-		
-		cidadesDTO = result.stream().map(cidade -> new CidadeDTO(cidade)).toList();
-		
-        return cidadesDTO;
-    }
-
 	public void adicionarCidadeMonitorada(CidadeDTO cidadeDTO) {
 		
-		Cidade cidade = new Cidade(cidadeDTO);
+		Cidade cidade = new Cidade();
+
+		cidade.setId(cidadeDTO.getId());
+		cidade.setName(cidadeDTO.getName());
+		cidade.setLocality(cidadeDTO.getLocality());
 		
+		List<Sensor> sensores = new ArrayList<Sensor>();
 		
-//		cidade.setId(cidadeDTO.getId());
-//		cidade.setName(cidadeDTO.getName());
-//		cidade.setLocality(cidadeDTO.getLocality());
-//		
-//		Provider provider = new Provider();
-//		List<Cidade> cidades;
-//		cidades.add(cidade);
-//		provider.setCidades(cidades);
-//		provider.setId(cidadeDTO.getProvider().getId());
-//		provider.setName(cidadeDTO.getProvider().getName());	
-//		
-//		cidade.setInstruments(cidadeDTO.getInstruments());
-//		cidade.setSensors(cidadeDTO.getSensors());		
+		for (SensorDTO sensorDTO : cidadeDTO.getSensors()) {
+			Sensor sensor = new Sensor();
+			sensor.setId(sensorDTO.getId());
+			sensor.setName(sensorDTO.getName());
+			sensor.setCidade(cidade);
+			sensores.add(sensor);
+		}
 		
+		cidade.setSensors(sensores);
 		
 		cidadeRepository.save(cidade);
 	}
-	*/
+	
+	
+	public List<CidadeDTO> consultarCidadesMonitoradas() {
+		
+		List<Cidade> result = cidadeRepository.findAll();
+		
+		List<CidadeDTO> cidadesDTO = result.stream().map(cidade -> new CidadeDTO(cidade)).toList();
+		
+		return cidadesDTO;
+    }
 
 }

@@ -13,8 +13,6 @@ public class CidadeDTO {
     private int id;
     private String name;
     private String locality;
-    private ProviderDTO provider;
-    private List<InstrumentDTO> instruments;
     private List<SensorDTO> sensors;
     
     public CidadeDTO() {
@@ -43,25 +41,13 @@ public class CidadeDTO {
 	public void setLocality(String locality) {
 		this.locality = locality;
 	}
-	public ProviderDTO getProvider() {
-		return provider;
-	}
-	public void setProvider(ProviderDTO provider) {
-		this.provider = provider;
-	}
-	public List<InstrumentDTO> getInstruments() {
-		return instruments;
-	}
-	public void setInstruments(List<InstrumentDTO> instruments) {
-		this.instruments = instruments;
-	}
+	
 	public List<SensorDTO> getSensors() {
 		return sensors;
 	}
 	public void setSensors(List<SensorDTO> sensors) {
 		this.sensors = sensors;
-	}
-    
+	}   
     
 
 }
