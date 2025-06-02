@@ -62,6 +62,7 @@ public class CidadeService {
 
 	}
 	
+	/*
 	public List<CidadeDTO> listarTodas() {
 		
 		List<Cidade> result = cidadeRepository.findAll();
@@ -75,23 +76,26 @@ public class CidadeService {
 
 	public void adicionarCidadeMonitorada(CidadeDTO cidadeDTO) {
 		
-		Cidade cidade = new Cidade();
-		cidade.setId(cidadeDTO.getId());
-		cidade.setName(cidadeDTO.getName());
-		cidade.setLocality(cidadeDTO.getLocality());
-		
-		Provider provider = new Provider();
-		provider.set
+		Cidade cidade = new Cidade(cidadeDTO);
 		
 		
-		cidade.setProvider(cidadeDTO.getProvider());
-		cidade.setInstruments(cidadeDTO.getInstruments());
-		cidade.setSensors(cidadeDTO.getSensors());
+//		cidade.setId(cidadeDTO.getId());
+//		cidade.setName(cidadeDTO.getName());
+//		cidade.setLocality(cidadeDTO.getLocality());
+//		
+//		Provider provider = new Provider();
+//		List<Cidade> cidades;
+//		cidades.add(cidade);
+//		provider.setCidades(cidades);
+//		provider.setId(cidadeDTO.getProvider().getId());
+//		provider.setName(cidadeDTO.getProvider().getName());	
+//		
+//		cidade.setInstruments(cidadeDTO.getInstruments());
+//		cidade.setSensors(cidadeDTO.getSensors());		
 		
-		cidadeRepository.;
 		
 		cidadeRepository.save(cidade);
 	}
-	
+	*/
 
 }

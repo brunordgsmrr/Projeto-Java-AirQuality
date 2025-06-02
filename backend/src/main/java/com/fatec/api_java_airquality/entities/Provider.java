@@ -17,9 +17,6 @@ public class Provider {
     private int id;
     private String name;
     
-    @OneToMany(mappedBy = "provider")
-    private List<Cidade> cidades;
-    
     
 	public Provider() {
 		super();
@@ -36,13 +33,15 @@ public class Provider {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	/*
 	public List<Cidade> getCidades() {
 		return cidades;
 	}
 	public void setCidades(List<Cidade> cidades) {
 		this.cidades = cidades;
 	}
-	
+	*/
 	
     
     

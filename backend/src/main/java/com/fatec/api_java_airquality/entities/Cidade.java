@@ -2,6 +2,10 @@ package com.fatec.api_java_airquality.entities;
 
 import java.util.List;
 
+import org.springframework.beans.BeanUtils;
+
+import com.fatec.api_java_airquality.dtos.CidadeDTO;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -39,6 +43,10 @@ public class Cidade {
     
     
 	public Cidade() {
+	}
+	
+	public Cidade(CidadeDTO cidadeDTO) {
+		BeanUtils.copyProperties(cidadeDTO, this);
 	}
 	
 	

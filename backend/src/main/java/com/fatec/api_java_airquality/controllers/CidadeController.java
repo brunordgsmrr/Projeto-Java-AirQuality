@@ -25,6 +25,7 @@ public class CidadeController {
 		return cidadeService.getAllCities();
 	}
 	
+	/*
 	@GetMapping(value = "/cidadeMonitoradas")
 	public List<CidadeDTO> getCidadesMonitoradas(){		
 		return cidadeService.listarTodas();
@@ -38,6 +39,6 @@ public class CidadeController {
 		
 		cidadeService.adicionarCidadeMonitorada(body);
 	}
-
+	*/
 
 }

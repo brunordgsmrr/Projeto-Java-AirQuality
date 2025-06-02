@@ -16,9 +16,9 @@ export default class CityController {
 
     async init() {
         const cities = await fetchCitiesFromBrazil();
-        // Apenas os 10 primeiros para exemplo
-        cities.slice(0, 10).forEach(city => this.model.addCity(city));
+        await cities.forEach(city => this.model.addCity(city));
         this.cityListView.render(this.model.getCities());
+
     }
 
     handleAddCity() {
