@@ -3,7 +3,9 @@ package com.fatec.api_java_airquality.controllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fatec.api_java_airquality.dtos.CidadeDTO;
 import com.fatec.api_java_airquality.dtos.SensorDTO;
+import com.fatec.api_java_airquality.dtos.CityWithMeasurementDTO;
 import com.fatec.api_java_airquality.services.CidadeService;
 
 @RestController
@@ -42,6 +45,16 @@ public class CidadeController {
 	@GetMapping(value = "/cidadeMonitoradas")
 	public List<CidadeDTO> consultarCidadesMonitoradas(){
 		return cidadeService.consultarCidadesMonitoradas();
+	}
+	
+	@DeleteMapping(value = "/removerCidadeMonitorada/{cityId}")
+	public void removerCidadeMonitorada(@PathVariable int cityId ){
+		cidadeService.removerCidadeMonitorada(cityId);
+	}
+	
+	@GetMapping(value = "/dadosMedicao/{cityId}")
+	public CityWithMeasurementDTO consultarDadosMedicao(@PathVariable int cityId){
+		return cidadeService.consultarDadosMedicao(cityId);
 	}
 	
 	

@@ -1,5 +1,8 @@
 package com.fatec.api_java_airquality.dtos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SensorDTO {
 	private int id;
     private String name;
