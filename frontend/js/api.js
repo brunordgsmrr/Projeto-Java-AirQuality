@@ -15,7 +15,7 @@ export async function fetchCityDetails(cityId) {
 
 // Requisição das cidades monitorada
 export async function fetchCidadesMonitoradas() {
-  const res = await fetch(`${API_BASE}/todasCidades`);
+  const res = await fetch(`${API_BASE}/cidadeMonitoradas`);
   const data = await res.json();
   return data;
 }

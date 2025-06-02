@@ -1,7 +1,7 @@
 import CityModel from '../model/CityModel.js';
 import CityListView from '../view/CityListView.js';
 import CityDetailView from '../view/CityDetailView.js';
-import { fetchCitiesFromBrazil, fetchCityDetails } from '../api.js';
+import { fetchCitiesFromBrazil, fetchCityDetails, fetchCidadesMonitoradas } from '../api.js';
 
 export default class CityController {
     constructor() {
@@ -15,7 +15,7 @@ export default class CityController {
     }
 
     async init() {
-        const cities = await fetchCitiesFromBrazil();
+        const cities = await fetchCidadesMonitoradas();
         await cities.forEach(city => this.model.addCity(city));
         this.cityListView.render(this.model.getCities());
 
