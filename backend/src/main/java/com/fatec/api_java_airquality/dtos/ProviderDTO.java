@@ -1,5 +1,9 @@
 package com.fatec.api_java_airquality.dtos;
 
+import org.springframework.beans.BeanUtils;
+
+import com.fatec.api_java_airquality.entities.Provider;
+
 public class ProviderDTO {
 	
 
@@ -8,6 +12,10 @@ public class ProviderDTO {
     
     public ProviderDTO() {
     	
+    }
+    
+    public ProviderDTO(Provider provider) {
+    	BeanUtils.copyProperties(provider, this);
     }
 
 	public int getId() {

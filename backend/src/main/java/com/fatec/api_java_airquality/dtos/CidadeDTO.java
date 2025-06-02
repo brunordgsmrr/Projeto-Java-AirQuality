@@ -2,7 +2,10 @@ package com.fatec.api_java_airquality.dtos;
 
 import java.util.List;
 
+import org.springframework.beans.BeanUtils;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fatec.api_java_airquality.entities.Cidade;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CidadeDTO {	
@@ -16,8 +19,12 @@ public class CidadeDTO {
     
     public CidadeDTO() {
     	
-    }
+    }    
     
+	public CidadeDTO(Cidade cidade) {
+		BeanUtils.copyProperties(cidade, this); 
+	}
+
 	public int getId() {
 		return id;
 	}

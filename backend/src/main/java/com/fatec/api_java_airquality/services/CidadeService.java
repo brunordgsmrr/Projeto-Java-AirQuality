@@ -16,19 +16,22 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fatec.api_java_airquality.daos.CidadeDAO;
 import com.fatec.api_java_airquality.dtos.CidadeDTO;
+import com.fatec.api_java_airquality.entities.Cidade;
+import com.fatec.api_java_airquality.entities.Provider;
+import com.fatec.api_java_airquality.repositories.CidadeRepository;
 
 @Service
 public class CidadeService {
+	
+	@Autowired
+    private CidadeRepository cidadeRepository;
 
 	@Value("${openaq.api.url}")
 	private String BASE_URL;
 
 	@Value("${openaq.api.key}")
 	private String API_KEY;
-	
-	private CidadeDAO cidadeDAO = new CidadeDAO();
 
 	public List<CidadeDTO> getAllCities() {
 
@@ -59,14 +62,36 @@ public class CidadeService {
 
 	}
 	
-	public List<CidadeDTO> getCidadesMonitoradas(){
+	public List<CidadeDTO> listarTodas() {
 		
-		List<CidadeDTO> cidadesMonitoradas = cidadeDAO.consultarCidadesMonitoradas();
+		List<Cidade> result = cidadeRepository.findAll();
+		
+		List<CidadeDTO> cidadesDTO;
+		
+		cidadesDTO = result.stream().map(cidade -> new CidadeDTO(cidade)).toList();
+		
+        return cidadesDTO;
+    }
+
+	public void adicionarCidadeMonitorada(CidadeDTO cidadeDTO) {
+		
+		Cidade cidade = new Cidade();
+		cidade.setId(cidadeDTO.getId());
+		cidade.setName(cidadeDTO.getName());
+		cidade.setLocality(cidadeDTO.getLocality());
+		
+		Provider provider = new Provider();
+		provider.set
 		
 		
-		return cidadesMonitoradas;
+		cidade.setProvider(cidadeDTO.getProvider());
+		cidade.setInstruments(cidadeDTO.getInstruments());
+		cidade.setSensors(cidadeDTO.getSensors());
 		
+		cidadeRepository.;
 		
+		cidadeRepository.save(cidade);
 	}
+	
 
 }
