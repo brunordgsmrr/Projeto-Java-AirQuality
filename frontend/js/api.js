@@ -58,5 +58,6 @@ export async function consultarDadosMedicao(cityId) {
     throw new Error('Erro ao consultar dados');
   }
 
+  console.log(data)
   return data;
 }

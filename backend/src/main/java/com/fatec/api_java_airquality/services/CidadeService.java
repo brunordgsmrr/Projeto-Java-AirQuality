@@ -1,13 +1,13 @@
 package com.fatec.api_java_airquality.services;
 
 import java.time.LocalDate;
+import java.time.OffsetDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.domain.Example;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -112,15 +112,11 @@ public class CidadeService {
 
 	public CityWithMeasurementDTO consultarDadosMedicao(int cityId) {		
 		
-		Cidade cidade = cidadeRepository.findById(cityId).orElse(null);		
-		Sensor sensor = new Sensor();
-		sensor.setCidade(cidade);		
-		List<Sensor> sensores = sensorRepository.findAll(Example.of(sensor));
+		Cidade cidade = cidadeRepository.findById(cityId).orElse(null);
+		List<Sensor> sensores = sensorRepository.findByCidadeId(cityId);
+		CityWithMeasurementDTO cityWithMeasurementDTO = new CityWithMeasurementDTO();		
 		
-		CityWithMeasurementDTO cityWithMeasurementDTO = new CityWithMeasurementDTO();
-		cityWithMeasurementDTO.setCidade(cidade);
-		cityWithMeasurementDTO.setSensor(sensor);
-		
+		cityWithMeasurementDTO.setCidade(new CidadeDTO(cidade));		
 		
 		RestTemplate restTemplate = new RestTemplate();
 	    ObjectMapper objectMapper = new ObjectMapper();
@@ -130,7 +126,6 @@ public class CidadeService {
 		HttpEntity<Void> requestEntity = new HttpEntity<>(headers);
 		
 		for (Sensor sensorAtual : sensores) {
-			
 			String req = BASE_URL + "/sensors/" + sensorAtual.getId() + "/days/monthly";
 			
 			ResponseEntity<String> response = restTemplate.exchange(req, HttpMethod.GET, requestEntity, String.class);
@@ -140,20 +135,18 @@ public class CidadeService {
 	                JsonNode root = objectMapper.readTree(response.getBody());
 	                JsonNode resultsNode = root.get("results");
 	                
-	                
 	                if (resultsNode.isArray()) {
 	                	for (JsonNode jsonNode: resultsNode) {
 	                		
-	                		MeasurementDTO measurementDTO = new MeasurementDTO();	                		
+	                		MeasurementDTO measurementDTO = new MeasurementDTO();
 	                		
-	                		double value = jsonNode.get("value").asDouble();
-	                        String parameterName = jsonNode.get("parameter").get("name").asText();
-	                        String units = jsonNode.get("parameter").get("units").asText();
-	                        LocalDate period = LocalDate.parse(jsonNode.get("period").get("datetimeFrom").get("local").asText());
-	                        
-	                        measurementDTO.setValue(value);
-	                        measurementDTO.setParameterName(parameterName);
-	                        measurementDTO.setUnits(units);
+	                		measurementDTO.setValue(jsonNode.get("value").asDouble());
+	                		measurementDTO.setParameterName(jsonNode.get("parameter").get("name").asText());
+	                		measurementDTO.setUnits(jsonNode.get("parameter").get("units").asText());
+	                		measurementDTO.setSensorId(sensorAtual.getId());
+	                		
+	                		OffsetDateTime offsetDateTime = OffsetDateTime.parse(jsonNode.get("period").get("datetimeFrom").get("utc").asText());
+	                        LocalDate period = offsetDateTime.toLocalDate();
 	                        measurementDTO.setPeriod(period);
 	                        
 	                        cityWithMeasurementDTO.addMeasurementDTO(measurementDTO);	                        

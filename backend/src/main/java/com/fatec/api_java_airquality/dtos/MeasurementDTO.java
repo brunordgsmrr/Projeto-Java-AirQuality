@@ -8,6 +8,7 @@ public class MeasurementDTO {
 	private String parameterName;
 	private String units;
 	private LocalDate period;
+	private int sensorId;
 	
 	
 	public double getValue() {
@@ -34,6 +35,13 @@ public class MeasurementDTO {
 	public void setPeriod(LocalDate period) {
 		this.period = period;
 	}
+	public int getSensorId() {
+		return sensorId;
+	}
+	public void setSensorId(int sensorId) {
+		this.sensorId = sensorId;
+	}
+	
 	
 	
 

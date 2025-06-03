@@ -6,7 +6,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tb_sensors")
+@Table(name = "tb_sensores")
 public class Sensor {
 	
 	@Id
