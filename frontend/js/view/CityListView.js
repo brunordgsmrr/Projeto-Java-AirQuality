@@ -8,31 +8,13 @@ export default class CityListView {
 
   render(cities) {
     this.sidebar.innerHTML = `
-      <style>
-        #sidebar ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-        }
-        #sidebar ul li {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 8px 12px;
-          margin-bottom: 6px;
-          background: #f5f5f5;
-          border-radius: 4px;
-          min-height: 40px;
-        }
-        #sidebar ul li button {
-          margin-left: 8px;
-        }
-      </style>
       <button id="add-city-btn">Nova cidade</button>
       <ul>
         ${cities.map(city => `
           <li>
-            ${city.name}
+            <span class="item-name">
+              ${city.name}
+            </span>
             <span>
               <button data-id="${city.id}" class="monitor-btn">Monitorar</button>
               <button data-id="${city.id}" class="delete-btn">X</button>

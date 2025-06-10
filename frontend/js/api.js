@@ -61,3 +61,14 @@ export async function consultarDadosMedicao(cityId) {
   console.log(data)
   return data;
 }
+
+// Requisição dos dados de medição da cidade
+export async function consultarParametros() {
+  const res = await fetch(`${API_BASE}/parameters`);
+  const data = await res.json();
+
+  if (!res.ok) {
+    throw new Error('Erro ao consultar dados');
+  }
+  return data;
+}

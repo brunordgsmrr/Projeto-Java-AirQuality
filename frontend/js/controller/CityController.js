@@ -2,7 +2,7 @@ import Cities from '../model/Cities.js';
 import CityListView from '../view/CityListView.js';
 import CityDetailView from '../view/CityDetailView.js';
 import CityAddModalView from '../view/CityAddmodalView.js';
-import { fetchCitiesFromBrazil, consultarDadosMedicao, fetchCidadesMonitoradas, removerCidadeMonitorada } from '../api.js';
+import { fetchCitiesFromBrazil, consultarDadosMedicao, fetchCidadesMonitoradas, removerCidadeMonitorada, consultarParametros } from '../api.js';
 
 export default class CityController {
     constructor() {
@@ -42,7 +42,8 @@ export default class CityController {
         //const city = this.model.getCityById(Number(cityId));
         //const details = await fetchCityDetails(cityId);
         const dados = await consultarDadosMedicao(cityId)
+        const parametersInfo = await consultarParametros()
         //this.cityDetailView.render(city, details, dados);
-        this.cityDetailView.render(dados);
+        this.cityDetailView.render(dados, parametersInfo);
     }
 }
