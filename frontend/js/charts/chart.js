@@ -1,47 +1,74 @@
 export default class MeasurementChart {
-
-    constructor(data, element) {
-        this.data = data
-        this.element = element
+    constructor(measurements, container, cidade) {
+        this.measurements = measurements;
+        this.container = container;
+        this.cidade = cidade;
+        this.charts = [];
     }
 
     create() {
-        let canvas = document.createElement('canvas');
-        this.element.appendChild(canvas);
+        // Limpa o container antes de adicionar novos gráficos
+        this.container.innerHTML = '';
 
-        const dataChart = {
-            labels: ['a', 'b', 'c', 'd'],
-            datasets: [{
-                label: 'a',
-                data: [1, 2, 3, 4],
-                borderColor: 'rgba(75, 192, 192, 1)',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                tension: 0.3
-            }]
-        }
+        this.container.innerHTML = `
+            <h2>${this.cidade.name}</h2>
+            <div id="chart-container">
+                <!-- gráfico aqui futuramente -->
+                <p>Total de medições: ${this.measurements.length}</p>
+            </div>
+        `;
 
-        const config = {
-            type: 'bar',
-            data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                datasets: [{
-                    label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
+        // Agrupa as medições por parâmetro
+        const grouped = {};
+        this.measurements.forEach(m => {
+            if (!grouped[m.parameterName]) grouped[m.parameterName] = [];
+            grouped[m.parameterName].push(m);
+        });
+
+        Object.keys(grouped).forEach(parameter => {
+            // Cria um título para o gráfico
+            const title = document.createElement('h3');
+            title.textContent = `Parâmetro: ${parameter}`;
+            this.container.appendChild(title);
+
+            // Cria o canvas para o gráfico
+            const canvas = document.createElement('canvas');
+            canvas.id = `chart-${parameter}`;
+            this.container.appendChild(canvas);
+
+            // Prepara os dados para o gráfico
+            const labels = grouped[parameter].map(m => m.dateTime || m.timestamp || '');
+            const values = grouped[parameter].map(m => m.value);
+
+            // Cria o gráfico usando Chart.js
+            // Certifique-se de que Chart.js está incluído no seu projeto!
+            // eslint-disable-next-line no-undef
+            const chart = new Chart(canvas, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: parameter,
+                        data: values,
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        fill: false,
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: true }
+                    },
+                    scales: {
+                        x: { display: true, title: { display: true, text: 'Data/Hora' } },
+                        y: { display: true, title: { display: true, text: 'Valor' } }
                     }
                 }
-            }
-        }
+            });
 
-        new Chart(canvas, config)
-
-
+            this.charts.push(chart);
+        });
     }
-
 }

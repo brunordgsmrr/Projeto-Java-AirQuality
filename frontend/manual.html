@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Manual das Funções - Monitoramento da Qualidade do Ar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 32px;
+            background: #f9f9f9;
+            color: #222;
+        }
+        h1 {
+            color: #1976d2;
+        }
+        h2 {
+            color: #1251a3;
+            margin-top: 32px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 4px 16px;
+            border-radius: 4px;
+            font-size: 15px;
+            margin-right: 8px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .btn-add { background: #1976d2; }
+        .btn-monitor { background: #1976d2; }
+        .btn-delete { background: #d32f2f; }
+        ul {
+            margin-top: 8px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manual das Funções</h1>
+    <p>Este manual descreve as principais funções do sistema de Monitoramento da Qualidade do Ar: <b>Nova cidade</b>, <b>Monitorar</b> e <b>Excluir</b>.</p>
+
+    <h2><span class="btn btn-add">Nova cidade</span></h2>
+    <ul>
+        <li>Ao clicar no botão <b>Nova cidade</b>, será exibida uma janela modal com uma lista de cidades disponíveis para monitoramento.</li>
+        <li>Selecione a cidade desejada e confirme para adicioná-la à lista de cidades monitoradas.</li>
+        <li>Após a adição, a cidade aparecerá na barra lateral, pronta para ser monitorada.</li>
+    </ul>
+
+    <h2><span class="btn btn-monitor">Monitorar</span></h2>
+    <ul>
+        <li>O botão <b>Monitorar</b> está disponível ao lado de cada cidade na lista.</li>
+        <li>Ao clicar, o sistema exibirá os dados de qualidade do ar da cidade selecionada, incluindo gráficos dos parâmetros monitorados.</li>
+        <li>Esses dados são atualizados conforme as informações disponíveis na API.</li>
+    </ul>
+
+    <h2><span class="btn btn-delete">Excluir</span></h2>
+    <ul>
+        <li>O botão <b>Excluir</b> (<code>X</code>) remove a cidade da lista de monitoramento.</li>
+        <li>Após a exclusão, a cidade não aparecerá mais na barra lateral e seus dados não serão mais exibidos.</li>
+        <li>Esta ação pode ser desfeita apenas adicionando novamente a cidade via <b>Nova cidade</b>.</li>
+    </ul>
+</body>
+</html>

@@ -10,23 +10,14 @@ export default class CityDetailView {
 
     let parameters = [...new Set(measurement.map((m) => { return m.parameterName }))]
 
-    let chart = new MeasurementChart([], this.main)
 
-    chart.create()
-
-
-
+    // Cria os gráficos para cada parâmetro
+    let chart = new MeasurementChart(measurement, this.main, cidade);
+    chart.create();
 
     //const o3Data = measurement.filter(m => m.parameterName === "o3");
     //const pm10Data = measurement.filter(m => m.parameterName === "pm10");
 
-    //this.main.innerHTML = `
-    //  <h2>${city.name}</h2>
-    //  <div id="chart-container">
-    //    <!-- gráfico aqui futuramente -->
-    //    <p>Total de medições: ${measurements.length}</p>
-    //  </div>
-    //`;
   }
 }
 
