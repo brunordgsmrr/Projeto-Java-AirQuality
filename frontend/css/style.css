@@ -45,6 +45,7 @@ main {
 
 .modal-content {
     background: white;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
     width: 400px;
@@ -56,6 +57,20 @@ main {
     float: right;
     cursor: pointer;
     font-size: 20px;
+}
+
+.city-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.city-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
 }
 
 canvas {
