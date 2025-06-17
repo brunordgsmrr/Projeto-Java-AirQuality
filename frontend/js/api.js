@@ -1,4 +1,4 @@
-const API_BASE = `${process.env.API_URL}/api` || 'http://localhost:8080/api';
+const API_BASE = 'https://projeto-java-airquality.onrender.com/api';
 const API_KEY = ''
 
 export async function fetchCitiesFromBrazil() {
