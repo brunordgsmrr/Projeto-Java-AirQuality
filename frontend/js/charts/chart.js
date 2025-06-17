@@ -1,8 +1,9 @@
 export default class MeasurementChart {
-    constructor(measurements, container, cidade) {
+    constructor(measurements, container, cidade, parametersInfo) {
         this.measurements = measurements;
         this.container = container;
         this.cidade = cidade;
+        this.parametersInfo = parametersInfo
         this.charts = [];
     }
 
@@ -13,7 +14,6 @@ export default class MeasurementChart {
         this.container.innerHTML = `
             <h2>${this.cidade.name}</h2>
             <div id="chart-container">
-                <!-- gráfico aqui futuramente -->
                 <p>Total de medições: ${this.measurements.length}</p>
             </div>
         `;
@@ -25,16 +25,25 @@ export default class MeasurementChart {
             grouped[m.parameterName].push(m);
         });
 
+        const elementCharts = document.createElement('div');
+        elementCharts.id = 'charts';
+
         Object.keys(grouped).forEach(parameter => {
+
+            const elementChart = document.createElement('div');
+            elementChart.className = 'chart';
+
             // Cria um título para o gráfico
-            const title = document.createElement('h3');
-            title.textContent = `Parâmetro: ${parameter}`;
-            this.container.appendChild(title);
+            const parameterInfo = this.parametersInfo.find(info => info.name === parameter);
+            const title = document.createElement('p');
+            title.innerHTML = `${parameterInfo.displayName}, ${parameterInfo.units}<br>
+            Descrição: ${parameterInfo.description}<br>`;
+            elementChart.appendChild(title);
 
             // Cria o canvas para o gráfico
             const canvas = document.createElement('canvas');
             canvas.id = `chart-${parameter}`;
-            this.container.appendChild(canvas);
+            elementChart.appendChild(canvas);
 
             // Prepara os dados para o gráfico
             const labels = grouped[parameter].map(m => m.dateTime || m.timestamp || '');
@@ -62,13 +71,16 @@ export default class MeasurementChart {
                         legend: { display: true }
                     },
                     scales: {
-                        x: { display: true, title: { display: true, text: 'Data/Hora' } },
-                        y: { display: true, title: { display: true, text: 'Valor' } }
+                        x: { display: true, title: { display: true, text: 'Data' } },
+                        y: { display: true, title: { display: true, text: parameterInfo.units } }
                     }
                 }
             });
 
+            elementCharts.appendChild(elementChart);
             this.charts.push(chart);
         });
+
+        this.container.appendChild(elementCharts);
     }
 }
