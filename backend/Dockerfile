@@ -15,7 +15,7 @@ FROM eclipse-temurin:21-jdk-jammy
 WORKDIR /app
 
 # Copia o JAR gerado
-COPY --from=build /app/target/api-air-quality-*.jar app.jar
+COPY --from=build /app/target/api-air-quality-0.0.1-SNAPSHOT.jar app.jar
 
 # Expondo a porta padrão do Spring Boot
 EXPOSE 8080
